@@ -55,7 +55,9 @@ nav {
   transition: 0.3s;
   z-index: 100;
 }
-
+a {
+  color: var(--icon-color);
+}
 .nav-name {
   font-size: 30px;
   font-weight: 600;
@@ -359,7 +361,11 @@ i {
   font-weight: 500;
   transition: all 0.5s ease;
 }
-
+.about-me-btn a,
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
 /* SKILL BOX */
 .skill {
   position: relative;
@@ -575,7 +581,9 @@ footer {
   margin-top: 10px;
   color: var(--color-white);
 }
-
+footer a {
+  color: var(--icon-color);
+}
 /* Medias */
 @media only screen and (max-width: 1024px) {
   .featured-text {
@@ -686,5 +694,9 @@ footer {
   }
   .mode {
     margin-left: 50%;
+  }
+  .contact-info {
+    padding: 0px;
+    width: 100%;
   }
 }
